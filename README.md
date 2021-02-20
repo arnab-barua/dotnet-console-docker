@@ -5,13 +5,10 @@ Sample .Net console application with docker
 1. Clone 
 
 2. Create an image
-<br />
-\t docker build -t docker-console .
+&nbsp;&nbsp;&nbsp;&nbsp; docker build -t docker-console .
 
 3. Create a container from this image
-<br />
-\t docker create --name SampleConsole docker-console
+&nbsp;&nbsp;&nbsp;&nbsp; docker create --name SampleConsole docker-console
 
 4. Start the container
-<br />
-\t docker start SampleConsole
+&nbsp;&nbsp;&nbsp;&nbsp; docker start SampleConsole
